@@ -24,7 +24,7 @@ using GNU Guix.
 2. `cd` to the Rust codebase with the vendorized dependencies
 3. Run as:
     ```bash
-    ./revendor.scm $(./revendor.sh)
+    revendor.scm $(revendor.sh)
     ```
 
 ### Guide
