@@ -31,6 +31,17 @@ using GNU Guix.
 
 <https://fredrickbrennan.medium.com/how-to-bypass-rust-cargo-error-directory-sources-are-not-intended-to-be-edited-ab2f257b89da>
 
+### `deguix`
+
+Since you probably only plan to use GNU Guix for this constrained purpose, its habit of polluting the `PATH` is likely not welcome.
+
+You can do:
+
+```bash
+cat deguix/.bashrc >> "$HOME/.bashrc"
+cp deguix/.bash_pathfuncs "$HOME"
+```
+
 ## License
 ```
 Copyright 2022 Fredrick R. Brennan
